@@ -1,11 +1,10 @@
 package com.chaoxi.map;
 
-import android.graphics.Color;
+import static com.chaoxi.map.MyApp.TAG;
+
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.Toast;
-
-import static com.chaoxi.map.MyApp.TAG;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,7 +15,6 @@ import com.baidu.location.LocationClient;
 import com.baidu.location.LocationClientOption;
 import com.baidu.mapapi.map.BaiduMap;
 import com.baidu.mapapi.map.BaiduMapOptions;
-import com.baidu.mapapi.map.BitmapDescriptorFactory;
 import com.baidu.mapapi.map.MapPoi;
 import com.baidu.mapapi.map.MapView;
 import com.baidu.mapapi.map.MyLocationConfiguration;
